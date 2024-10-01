@@ -23,7 +23,7 @@ const NavBar = () => {
           <span className="text-white text-4xl font-bold"> शुभ बंधन</span>
         </div>
         <div className="flex space-x-8">
-          <NavLink to="/" className={({ isActive }) => linkClasses(isActive)}>
+          <NavLink to="/home" className={({ isActive }) => linkClasses(isActive)}>
             Dashboard
           </NavLink>
           <NavLink to="/events" className={({ isActive }) => linkClasses(isActive)}>
